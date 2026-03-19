@@ -141,8 +141,8 @@ a {
 }
 
 .sauce-packet__message:focus {
-  /* border: solid 5px var(--color__sauce-1__2); */
-  outline: none;
+  outline: 3px solid var(--color__white);
+  outline-offset: 2px;
 }
 
 .sauce-packet__message:focus ~ .sauce-packet-background {
